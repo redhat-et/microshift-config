@@ -1,10 +1,12 @@
-"units": [{
-    "name": "microshift.service",
-    "enabled": true
-}, {
-    "name": "firewalld.service",
-    "enabled": false
-}, {
-    "name": "transmission.timer",
-    "enabled": true 
-}]
+{
+    "units": [{
+        "name": "microshift.service",
+        "enabled": true
+    }, {
+        "name": "firewalld.service",
+        "enabled": false
+    }, {
+        "name": "transmission.timer",
+        "enabled": true 
+    }]
+}
