@@ -1,0 +1,10 @@
+apiVersion: operator.open-cluster-management.io/v1
+kind: Klusterlet
+metadata:
+  name: klusterlet
+spec:
+  clusterName: {{ .clustername }}
+  imagePullSecret: open-cluster-management-image-pull-credentials
+  namespace: open-cluster-management-agent
+  registrationImagePullSpec: registry.redhat.io/rhacm2/registration-rhel8@sha256:23523230795d432c202df9ecffbd68fb3d4a6ab32074ec23346956cb4e7b95c1
+  workImagePullSpec: registry.redhat.io/rhacm2/work-rhel8@sha256:3503facbdeac387d0dce2822688693663e476f62d8e84036dbeafaf091f6bfeb

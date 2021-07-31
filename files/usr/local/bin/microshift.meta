@@ -1,0 +1,3 @@
+url: https://github.com/redhat-et/microshift/releases/download/$VERSION/microshift-linux-amd64
+hash: https://github.com/redhat-et/microshift/releases/download/$VERSION/release.sha256
+mode: 755

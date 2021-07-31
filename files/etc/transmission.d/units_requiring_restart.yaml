@@ -1,0 +1,2 @@
+crio.service:
+  - /etc/crio/*
