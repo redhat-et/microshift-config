@@ -2,4 +2,7 @@ path: /usr/local/bin/oc
 mode: 493
 overwrite: True
 contents:
+  compression: tar+gzip
   source: https://github.com/openshift/okd/releases/download/4.7.0-0.okd-2021-07-03-190901/openshift-client-linux-4.7.0-0.okd-2021-07-03-190901.tar.gz
+  verification:
+    hash: sha256-32a3c7ad793c673fdfdbb5ecbc4ef03bfcfd4a59ce3ceef87b05c4b0d31dc5ff
