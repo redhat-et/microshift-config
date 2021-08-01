@@ -1,0 +1,9 @@
+- unit: microshift.service
+  enabled: true
+  started: true
+- unit: firewalld.service
+  enabled: false
+  started: false
+- unit: transmission.timer
+  enabled: true
+  started: true
