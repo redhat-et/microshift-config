@@ -4,4 +4,4 @@ overwrite: True
 contents:
   source: https://github.com/redhat-et/microshift/releases/download/4.7.0-0.microshift-2021-07-07-002815/microshift-linux-amd64
   verification:
-    hash: sha256-8a7ca2fb53734c248c8db11fc0bae9d11aef646a6f1a2790bae690261bebf9fe
+    hash: sha256-4684f3cc13fde07f4f5b175d873b81c23a1a5d75bcbf3d3eb22aeb4af7702a9d
