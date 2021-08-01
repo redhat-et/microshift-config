@@ -1,8 +1,0 @@
-path: /usr/local/bin/kubectl
-mode: 493
-overwrite: True
-contents:
-  compression: tar+gzip
-  source: https://github.com/openshift/okd/releases/download/4.7.0-0.okd-2021-07-03-190901/openshift-client-linux-4.7.0-0.okd-2021-07-03-190901.tar.gz
-  verification:
-    hash: sha256-63231d74637751b0dfe2f7c62a72bf61c9bc2ef9655a5dbd34eeaf2f0f51fc1a
