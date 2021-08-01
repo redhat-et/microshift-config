@@ -1,3 +1,5 @@
-url: https://github.com/openshift/okd/releases/download/4.7.0-0.okd-2021-07-03-190901/openshift-client-linux-4.7.0-0.okd-2021-07-03-190901.tar.gz
-hash: https://github.com/openshift/okd/releases/download/4.7.0-0.okd-2021-07-03-190901/sha256sum.txt
-mode: 755
+path: /usr/local/bin/oc
+mode: 493
+overwrite: True
+contents:
+  source: https://github.com/openshift/okd/releases/download/4.7.0-0.okd-2021-07-03-190901/openshift-client-linux-4.7.0-0.okd-2021-07-03-190901.tar.gz
