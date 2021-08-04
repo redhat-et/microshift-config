@@ -6,6 +6,7 @@ Type=simple
 WorkingDirectory=/usr/local/bin/
 ExecStart=microshift run
 Restart=always
+RestartSec=30s
 User=root
 
 [Install]
