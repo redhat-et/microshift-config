@@ -19,7 +19,7 @@ spec:
       - args:
         - /registration-operator
         - klusterlet
-        image: registry.redhat.io/rhacm2/registration-rhel8-operator@sha256:a2fe7d0d70251073ea658c522bca39f1f0dac68c7747c7d15d97e25b5f802d52
+        image: registry.redhat.io/rhacm2/registration-rhel8-operator@sha256:ce90e0c1c2505ed84deffe7d57f78e34f7036b36d23293de11923727adc8a062
         imagePullPolicy: IfNotPresent
         livenessProbe:
           httpGet:
