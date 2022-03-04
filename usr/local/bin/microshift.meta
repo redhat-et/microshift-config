@@ -1,7 +1,0 @@
-path: /usr/local/bin/microshift
-mode: 493
-overwrite: True
-contents:
-  source: https://github.com/redhat-et/microshift/releases/download/4.7.0-0.microshift-2021-08-10-163759/microshift-linux-amd64
-  verification:
-    hash: sha256-6bf554fed0509bc9468c0a6294ca6debe425d94bfc7b147167d391babc073942
